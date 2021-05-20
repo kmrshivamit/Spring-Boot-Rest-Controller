@@ -20,7 +20,7 @@ public class CourseServiceImpl implements CourseService {
 
 	public List<Course> getCourses() {
 		System.out.println("Here is all courses");
-		return courseDao.findAll();
+		//return courseDao.findAll();
 	}
 
 	@Override
