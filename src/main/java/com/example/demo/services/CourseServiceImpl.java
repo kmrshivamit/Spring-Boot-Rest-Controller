@@ -19,6 +19,9 @@ public class CourseServiceImpl implements CourseService {
 	private CourseDao courseDao;
 
 	public List<Course> getCourses() {
+		System.out.println("Here is all courses");
+		System.out.println("This is a change for git");
+		System.out.println("Second Change.");
 		return courseDao.findAll();
 	}
 
